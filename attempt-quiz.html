@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS - Attempt Quiz</title>
+</head>
+<body style="padding: 0 50px;">
+    <header>
+        <div>
+            <img src="logo.jpg" alt="LMS Logo" style="height: 100px;">
+        </div>
+        <div>
+            <h1>LMS - Learning Management System</h1>
+        </div>
+        <h2>LMS - Attempt Quiz</h2>
+        <nav>
+            <a href="index.html">Homepage</a> | <a href="course_view.html">Courses</a>
+        </nav>
+        <br>
+        <br>
+    </header>
+
+    <main>
+       <img src="banner.jpg" alt="Quiz Banner" style="width: 100%;">
+        <h2>Course Name: Web Development</h2>
+        <h2>Course Code: WD381</h2>
+        <section>
+            <p>Topic: HTML Basics</p>
+            <p>Deadline: 11:59 PM, February 10, 2025</p>
+            <p>Attempts Allowed: 1</p>
+        </section>
+
+        <section>
+            <h3>Question 1</h3>
+            <p>What does HTML stand for?</p>
+            <form>
+                <input type="radio" id="html1" name="q1" value="Hyper Text Markup Language">
+                <label for="html1">Hyper Text Markup Language</label><br>
+                <input type="radio" id="html2" name="q1" value="Home Tool Markup Language">
+                <label for="html2">Home Tool Markup Language</label><br>
+                <button type="submit">Submit Answer</button>
+            </form>
+        </section>
+
+        <section>
+            <h3>Question 2</h3>
+            <p>Which of the following are HTML elements? (Select all that apply)</p>
+            <form>
+                <input type="checkbox" id="div" name="q2" value="div">
+                <label for="div">&lt;div&gt;</label><br>
+                 <input type="checkbox" id="span" name="q2" value="span">
+                <label for="span">&lt;span&gt;</label><br>
+                <button type="submit">Submit Answer</button>
+            </form>
+        </section>
+          <button onclick="window.location.href='leaderboard.html'" style="margin-top: 20px;">Finish Quiz</button>
+    </main>
+
+    <footer>
+        <p>© 2025 LMS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
